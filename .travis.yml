@@ -7,3 +7,6 @@ before_install:
 script:
   - ./mvnw clean install
   - ./mvnw heroku:deploy jib:build -P deploy-heroku,deploy-docker
+branches:
+  only:
+    - main
