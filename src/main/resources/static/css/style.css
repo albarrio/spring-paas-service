@@ -1,0 +1,31 @@
+body {
+    background-image: url("../rainbow_error.jpg");
+    background-repeat: no-repeat;
+    background-color: #3B2049;
+    background-position: right top;
+    background-size: 80%;
+}
+h1, h2 {
+    color:#ffffff;
+}
+a {
+    color: #ffffff;
+}
+
+.divSpace {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
