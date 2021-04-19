@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 // marks this class as a controller that can process the incoming HTTP requests.
-@RequestMapping("/api/v1/quote")
+@RequestMapping("/v1/quote")
 // sets the base path to the resource endpoints in the controller as /api/v1/quote
 public class QuoteController {
 
