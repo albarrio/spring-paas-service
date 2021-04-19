@@ -24,7 +24,7 @@ import java.sql.Timestamp;
 public class QuoteEntity {
 
    @Id
-   @GeneratedValue
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(updatable = false, nullable = false)
    Long id;
 
