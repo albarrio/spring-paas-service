@@ -1,33 +1,53 @@
 body {
     /*background-image: url("../rainbow_error.jpg");*/
     /*background-color: #3B2049;*/
-    background-image: url("../ghost_error2.jpg");
+    /*background-image: url("../ghost_error2.jpg");*/
     background-color: #191a54;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 80%;
+    /*background-repeat: no-repeat;*/
+    /*background-position: right top;*/
+    /*background-size: 80%;*/
+    font-family: Georgia, serif;
 }
-h1, h2 {
-    color:#ffffff;
+h1 {
+    font-size: 60px;
+    color: white;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+}
+h3 {
+    font-size: 30px;
+    color: white;
 }
 a {
-    color: #ffffff;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+img {
+    max-width: 100%
+}
+.image {
+    flex-basis: 90%;
+    min-width: 50%;
+    height: auto;
+}
+.text {
+    font-size: 20px;
+    padding-right: 10px;
 }
 
 .divSpace {
-    padding-left: 100px;
-    padding-top: 50px;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 10%;
 }
 
-table {
-    border-collapse: collapse;
-}
-
-table th, table td {
-    padding: 5px;
-}
-
-.error {
-    color: red;
+.italic {
     font-style: italic;
 }
