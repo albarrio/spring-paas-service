@@ -1,3 +1,5 @@
-# spring-paas-service
-SpringBoot base Application Java with a pipeline for CI/CD using Travis-CI, DockerHub and cloud-based PaaS Heroku.
-You can see project up here: https://spring-paas-service.herokuapp.com/actuator/health
+# In Quotes
+SpringBoot application with a CI/CD pipeline using Travis-CI, DockerHub and cloud-based PaaS Heroku.
+
+In this application you can find some inspirational phrases, you can try here:
+https://spring-paas-service.herokuapp.com/
