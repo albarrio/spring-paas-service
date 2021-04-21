@@ -5,3 +5,4 @@ In this application you can find some inspirational phrases, you can try here:
 
 https://spring-paas-service.herokuapp.com/
 (you should wait a while for heroku’s service to reactivate)
+...
