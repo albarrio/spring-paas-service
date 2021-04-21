@@ -11,6 +11,4 @@ public class HomeController {
       return "index";
    }
 
-   // questo è solo un commento
-   // commit da main
 }
